@@ -4,12 +4,14 @@ on:
   push:
     branches:
       - 'main'
+      - 'dev'
     tags:
       - '*'
 
   pull_request:
     branches:
       - 'main'
+      - 'dev'
 
   workflow_dispatch:
 
@@ -44,10 +46,10 @@ jobs:
 
           VERSION=$VERSION
           IMAGE_ID=$IMAGE_ID
-          echo ::set-output name=version::${VERSION}
-          echo ::set-output name=image_id::${IMAGE_ID}
-          echo ::set-output name=base_dir::${BASE_DIR}
-
+          echo "version=${VERSION}" >> $GITHUB_OUTPUT
+          echo "image_id=${IMAGE_ID}" >> $GITHUB_OUTPUT
+          echo "base_dir=${BASE_DIR}" >> $GITHUB_OUTPUT
+          
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
         with:
