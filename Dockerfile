@@ -7,7 +7,7 @@ RUN yarn install \
  && yarn build
 
 # Stage 2
-FROM nginx:1.17-alpine
+FROM nginx:1.31-alpine
 COPY --from=build /usr/src/app/dist /usr/share/nginx/html
 COPY scripts/wrapper.sh /wrapper.sh
 CMD ["/wrapper.sh"]
