@@ -7,19 +7,16 @@ version: 2
 updates:
   - package-ecosystem: "github-actions" # See documentation for possible values
     directory: "/" # Location of package manifests
-    versioning-strategy: auto
     rebase-strategy: auto
     schedule:
       interval: "daily"
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
-    versioning-strategy: auto
     rebase-strategy: auto
     schedule:
       interval: "daily"
   - package-ecosystem: "docker" # See documentation for possible values
     directory: "/" # Location of package manifests
-    versioning-strategy: auto
     rebase-strategy: auto
     schedule:
       interval: "daily"
