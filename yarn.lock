@@ -1051,10 +1051,10 @@
   resolved "https://registry.yarnpkg.com/@openfonts/roboto-condensed_all/-/roboto-condensed_all-1.44.2.tgz#fa474e627a60e76a4e3f0681bb1fade89892b2e1"
   integrity sha512-KfErOydQV/chWhZJ+RC/ynNthEwn9zB0rCAgY8BGgaFRKRg/cw7sIBaDn5/uYLICk0xX6loAZUBxQw4OegyHrw==
 
-"@openfonts/roboto_all@^1.44.1":
-  version "1.44.1"
-  resolved "https://registry.yarnpkg.com/@openfonts/roboto_all/-/roboto_all-1.44.1.tgz#426ac935ebcfb2b16898ed44ff3140eb9396e89d"
-  integrity sha512-umsCiLle25RqxRzarTy0y6ovAabgGM9p8/dOxy/iwvlIZa/oBluH2gvyyrgS6o3kmb/dHroznJbWzH1xj/n0UQ==
+"@openfonts/roboto_all@^1.44.2":
+  version "1.44.2"
+  resolved "https://registry.yarnpkg.com/@openfonts/roboto_all/-/roboto_all-1.44.2.tgz#04ca866215cce27977015cfeffd8e732a129d064"
+  integrity sha512-uoPCR+XaU0yvODUP/6V2DCu2cLHfxUQ7mOZEbBOHsUxKWpPmJ6b1ah1j3WrDJxhSZEtwNwC417mQoEdL/mcPQg==
 
 "@soda/friendly-errors-webpack-plugin@^1.7.1":
   version "1.8.1"
